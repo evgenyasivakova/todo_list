@@ -1,0 +1,99 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background: #d6d5de;
+}
+
+.container {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+input,
+textarea,
+button {
+    transition: .3s ease;
+    width: 100%;
+}
+
+input:focus,
+textarea:focus,
+button {
+    outline: none;
+}
+
+input.add-task,
+input.search-field,
+textarea {
+    border: 1px solid #ddd;
+    height: 37px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input.add-task:focus,
+input.search-field:focus,
+textarea:focus {
+    border-color:#817f94;
+}
+
+.add-task-btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #5cb85c;
+    border: 1px solid #4cae4c;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.search-input,
+.middle-line {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.item {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #5c5c7b;
+}
+
+h3 {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p {
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-delete {
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #d62727;
+    border: 1px solid #9c0c0c;
+}

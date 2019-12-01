@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Todos</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Список заданий</h1>
+    <div class="container">
+      <form class="top-line">
+        <input type="text" name="title" placeholder="Добавить задание" class="add-task" autocomplete="off">
+        <textarea name="description"></textarea>
+        <button type="submit" class="add-task-btn" id="add_task">Добавить</button>
+      </form>
+    </div>
+    <div class="search-input">
+      <input type="text" placeholder="Поиск" name="search-field" class="search-field">
+    </div>
+    <div class="middle-line" id="content"></div>
+    <script src="js/todos.js"></script>
+  </body>
+</html>
